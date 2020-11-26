@@ -14,6 +14,9 @@ class ProductTableSeeder extends Seeder
      */
     public function run()
     {
+        // to run the seeder v
+        // php artisan db:seed -class=ProductTableSeeder
+
         // Deleting existing data in the table
         Product::truncate();
 
